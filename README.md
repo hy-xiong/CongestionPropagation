@@ -19,6 +19,10 @@ Scripts:
 - getCongState: get road segment binary congestion state given computed road speed data (derived from GPS)
 - TrafficProgSmartRuntime.py: predict congestion propagation and evaluate running time
 
+Jupyter Notebook Scripts:
+There is many duplications between the jupyter scripts and raw python scripts. The jupyter notebook is for pattern exploreration. Once the code is fixed, .py file is created for distributed computing.
+- ROC.ipynb uses the output from predict congestion propagation.ipynb to build ROC and AUC curve
+
 If you would like to use this work, please cite:
 
 ```text
